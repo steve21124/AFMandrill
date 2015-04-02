@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = {
     "Atsushi Nagase" => "a@ngs.io"
   }
-  s.source         = { :git => 'https://github.com/ngs/AFMandrill.git', :tag => '0.0.1' }
+  s.source         = { :git => 'https://github.com/ngs/AFMandrill.git' }
   s.requires_arc = true
   s.platform     = :ios, '5.0'
   s.source_files = 'AFMandrill/*.{h,m}'
